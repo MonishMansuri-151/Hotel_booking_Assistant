@@ -143,7 +143,7 @@ async function playAssistantAudio(data) {
 
     const audio = new Audio(audioUrl);
 
-    audio.controls = true;
+    audio.controls = false;
     audio.preload = "auto";
 
     // Add player to chat
